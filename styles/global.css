@@ -113,16 +113,16 @@ h1 {
   width: 91px;
   height: 30px;
 
-color: var(--gray-400);
-font-family: 'Maven Pro';
-font-weight: 400;
-font-size: 16px;
+  color: var(--gray-400);
+  font-family: 'Maven Pro';
+  font-weight: 400;
+  font-size: 16px;
 
-background: #292C34;
-border-radius: 999px;
+  background: #292C34;
+  border-radius: 999px;
 
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 
 }
