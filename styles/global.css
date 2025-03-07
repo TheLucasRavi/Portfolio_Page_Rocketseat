@@ -30,6 +30,9 @@ img {
   margin: 48px auto;
   display: grid;
   align-items: center;
+
+  width: 112px;
+  height: 112px;
 }
 
 div > h2 {
