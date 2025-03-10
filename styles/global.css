@@ -694,8 +694,17 @@ h1 {
 
 }
 
+footer {
+  margin-top: 100px;
+  text-align: center;
+
+  font-family: 'Maven Pro';
+
+  color: var(--gray-400);
+}
+
 #final {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 
