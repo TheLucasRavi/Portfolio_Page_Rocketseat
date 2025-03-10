@@ -26,13 +26,10 @@ body {
   height: 600px;
 }
 
-img {
+#img1 {
   margin: 48px auto;
   display: grid;
   align-items: center;
-
-  width: 112px;
-  height: 112px;
 }
 
 div > h2 {
@@ -92,7 +89,7 @@ h1 {
   background: #292C34;
   border-radius: 999px;
 
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-family: 'Maven Pro';
   font-weight: 400;
   font-size: 16px;
@@ -110,12 +107,12 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
-  gap: 8px;
+  gap: 3px;
 
   width: 91px;
   height: 30px;
 
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-family: 'Maven Pro';
   font-weight: 400;
   font-size: 16px;
@@ -128,3 +125,243 @@ h1 {
   flex-grow: 0;
 
 }
+
+#css {
+  margin: 80px auto 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 3px;
+
+  width: 91px;
+  height: 30px;
+
+  color: var(--gray-500);
+  font-family: 'Maven Pro';
+  font-weight: 400;
+  font-size: 16px;
+
+  background: #292C34;
+  border-radius: 999px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  span {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  img {
+    position: absolute;
+    margin-right: 60px;
+  }
+
+}
+
+#javascript {
+  margin: 80px auto 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 3px;
+
+  width: 100px;
+  height: 30px;
+
+  color: var(--gray-500);
+  font-family: 'Maven Pro';
+  font-weight: 400;
+  font-size: 16px;
+
+  background: #292C34;
+  border-radius: 999px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  span {
+    margin-left: 8px;
+  }
+
+}
+
+#react {
+  margin: 80px auto 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 3px;
+
+  width: 91px;
+  height: 30px;
+
+  color: var(--gray-500);
+  font-family: 'Maven Pro';
+  font-weight: 400;
+  font-size: 16px;
+
+  background: #292C34;
+  border-radius: 999px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+#nodejs {
+  margin: 80px auto 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 3px;
+
+  width: 91px;
+  height: 30px;
+
+  color: var(--gray-500);
+  font-family: 'Maven Pro';
+  font-weight: 400;
+  font-size: 16px;
+
+  background: #292C34;
+  border-radius: 999px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+#img2 {
+  display: flex;
+  align-items: center;
+  margin: 94px auto 124px;
+
+}
+
+#meutraba {
+  font-size: 20px;
+}
+
+#vejaprojetos {
+  font-size: 24px;
+  margin-bottom: 56px;
+}
+
+.projetos1 #travelgram{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 12px;
+  gap: 20px;
+
+  width: 330px;
+  height: 280px;
+
+  background: #292C34;
+  border-radius: 12px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    margin: 5px;
+    border-radius: 8px;
+
+    width: 320px;
+    height: 156px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-left: 8px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+  }
+
+}
+
+.projetos1 #technews{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 12px;
+  gap: 20px;
+
+  width: 330px;
+  height: 280px;
+
+  background: #292C34;
+  border-radius: 12px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    margin: 5px;
+    border-radius: 8px;
+
+    width: 320px;
+    height: 156px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-left: 8px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+  }
+
+}
+
+.arranjo {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1040px;
+  height: 584px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
