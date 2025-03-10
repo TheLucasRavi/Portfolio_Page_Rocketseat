@@ -17,10 +17,10 @@ body {
   background: url(../assets/background/Background_Intro.png) no-repeat center/cover;
   background-color: var(--gray-200);
   width: 100%px;
-  height: 750px;
+  height: 950px;
 }
 
-#portfoliocomeco {
+#portfolio {
   margin: 0px auto;
   width: 100%px;
   height: 600px;
@@ -256,9 +256,67 @@ h1 {
   font-size: 20px;
 }
 
-#vejaprojetos {
+.vejaprojetos {
   font-size: 24px;
   margin-bottom: 56px;
+}
+
+.arranjo {
+  margin: auto auto 244px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1340px;
+  height: 584px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.arranjo2 {
+  margin: auto auto 248px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 900px;
+
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.arranjo3 {
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 400px;
+  height: 320px;
+
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
 }
 
 .projetos1 #travelgram{
@@ -345,23 +403,300 @@ h1 {
 
 }
 
-.arranjo {
-  margin: auto;
+.projetos1 #receita{
+  margin: 0px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: start;
-  align-content: start;
-  padding: 0px;
-  gap: 24px;
+  padding: 12px;
+  gap: 20px;
 
-  width: 1040px;
-  height: 584px;
+  width: 330px;
+  height: 280px;
+
+  background: #292C34;
+  border-radius: 12px;
 
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
+
+  img {
+    margin: 5px;
+    border-radius: 8px;
+
+    width: 320px;
+    height: 156px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-left: 8px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+  }
+
 }
+
+.projetos1 #zingen{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 12px;
+  gap: 20px;
+
+  width: 330px;
+  height: 280px;
+
+  background: #292C34;
+  border-radius: 12px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    margin: 5px;
+    border-radius: 8px;
+
+    width: 320px;
+    height: 156px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-left: 8px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+  }
+
+}
+
+.projetos1 #refund{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 12px;
+  gap: 20px;
+
+  width: 330px;
+  height: 280px;
+
+  background: #292C34;
+  border-radius: 12px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    margin: 5px;
+    border-radius: 8px;
+
+    width: 320px;
+    height: 156px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-left: 8px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+  }
+
+}
+
+.projetos1 #turismo{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 12px;
+  gap: 20px;
+
+  width: 330px;
+  height: 280px;
+
+  background: #292C34;
+  border-radius: 12px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    margin: 5px;
+    border-radius: 8px;
+
+    width: 320px;
+    height: 156px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-left: 8px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+  }
+
+}
+
+.servicos {
+  margin: auto;
+
+  width: 1386px;
+  height: 480px;
+
+  background-color: var(--gray-200);
+  background-size: cover;
+}
+
+.meuservic {
+  font-size: 20px;
+  height: 300px;
+}
+
+
+.servicos1 #wa {
+  box-sizing: border-box;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  
+  width: 280px;
+  height: 180px;
+  
+  border: 2px solid var(--gray-300);
+  border-radius: 12px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    margin-left: 8px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    font-family: 'Asap';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gray-600);
+  }
+
+  p {
+
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 118px;
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+
+    font-size: 14px;
+  }
+
+}
+
+.contato {
+
+  height: 200px;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #p2 {
+
+    font-family: 'Maven Pro';
+    color: var(--gray-400);
+    text-align: center;
+    margin-bottom: 48px;
+  }
+}
+
+.contato #lk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  padding: 20px;
+  gap: 12px;
+
+  margin-bottom: 16px;
+
+  width: 400px;
+  height: 28px;
+
+
+  background: #292C34;
+  border-radius: 8px;
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  .logo {
+    position: absolute;
+    
+    margin-right: 360px;
+  }
+
+  .arrow {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 380px;
+  }
+
+  span {
+    margin-top: 5px;
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    color: var(--gray-500);
+  }
+
+}
+
+#final {
+  margin-top: 200px;
+}
+
 
 
