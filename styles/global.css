@@ -62,7 +62,7 @@ h1 {
   color: var(--gray-400);
 }
 
-#tecnologia {
+#tecnologia { 
   margin: auto;
   display: flex;
   flex-direction: row;
