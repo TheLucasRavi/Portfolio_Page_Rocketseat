@@ -45,7 +45,7 @@ h2 > span {
 }
 
 h1 {
-  margin-top: 8px;
+  margin-top: 8px; 
   margin-bottom: 20px;
   font-family: 'Asap';
   color: var(--gray-600);
