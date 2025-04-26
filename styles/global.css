@@ -58,7 +58,7 @@ h1 {
   width: 780px;
   height: 40px;
   text-align: center;
-  font-family: 'Maven Pro';
+  font-family: 'Maven Pro'; 
   color: var(--gray-400);
 }
 
